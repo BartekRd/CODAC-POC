@@ -1,62 +1,34 @@
-# Project Title
+# CODAC POC
 
-Simple overview of use/purpose.
+A very small company called **KommatiPara** that deals with bitcoin trading has two separate datasets dealing with clients that they want 
+to collate to starting interfacing more 
+with their clients. One dataset contains information about the clients and the other one contains information about their financial details.
 
-## Description
-
-An in-depth paragraph about your project and overview of use.
+The company now needs a dataset containing the emails of the clients from the United Kingdom and the Netherlands and some of their 
+financial details to starting reaching out to them for a new marketing push.
 
 ## Getting Started
-
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
 ### Executing program
 
 * How to run the program
-* Step-by-step bullets
 ```
-code blocks for commands
+python src\main.py --dataset_one "[FILE_PATH]" --dataset_two "[FILE_PATH]" --countries "COUNTRY_1", "COUNTRY_2", ..., "COUNTRY_N"
 ```
+Examples:
+python src\main.py --dataset_one "C:\Users\Bartek\PycharmProjects\CODAC\dataset_one.csv" --dataset_two "C:\Users\Bartek\PycharmProjects\CODAC\dataset_two.csv" --countries "United Kingdom", "Poland", "France"
 
-## Help
+python src\main.py --dataset_one "C:\Users\Bartek\PycharmProjects\CODAC\dataset_one.csv" --dataset_two "C:\Users\Bartek\PycharmProjects\CODAC\dataset_two.csv" --countries "Netherlands"
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+ex. Bartek Radoszkiewicz
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
+* 1.0
     * Initial Release
 
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
