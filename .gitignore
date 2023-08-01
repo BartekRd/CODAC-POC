@@ -1,0 +1,6 @@
+venv
+.venv/*
+/.pytest_cache
+/.idea
+/client_data
+/*.log
